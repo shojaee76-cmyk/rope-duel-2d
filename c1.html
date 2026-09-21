@@ -7,12 +7,15 @@
 <meta name="description" content="Live BTC/USDT order flow performed on a lit shadow screen: two cut-leather cats duel on a rope that is the price line itself.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0705'/%3E%3Cpath d='M3 21c6-9 20-9 26 0' stroke='%23FFC24A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='20' r='4' fill='%23FFC24A'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="styles.css">
-<style>.booth{padding-top:54px}
-.candbar{position:fixed;left:50%;transform:translateX(-50%);top:10px;z-index:60;display:flex;gap:6px;padding:5px;border-radius:99px;background:rgba(12,9,7,.86);border:1px solid rgba(255,194,74,.28);backdrop-filter:blur(6px)}
-.candbar a{font:600 11.5px/1 "Martian Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:#C9B79A;text-decoration:none;padding:8px 12px;border-radius:99px}
+<style>
+.booth{padding-top:56px}
+.candbar{position:fixed;left:50%;transform:translateX(-50%);top:9px;z-index:60;display:flex;gap:6px;padding:5px;border-radius:99px;background:rgba(12,9,7,.86);border:1px solid rgba(255,194,74,.28);backdrop-filter:blur(6px);white-space:nowrap}
+.candbar a{font:600 12px/1 "Martian Mono",monospace;letter-spacing:.06em;text-transform:uppercase;color:#C9B79A;text-decoration:none;padding:13px 13px;border-radius:99px;display:inline-flex;align-items:center;min-height:42px;white-space:nowrap}
 .candbar a.on{background:#FFC24A;color:#150F08}
 .candbar a:hover{color:#FFE7BE}
-@media(max-width:700px){.candbar a{padding:7px 9px;font-size:10px}}
+.candbar .lg{display:inline}
+.candbar .sh{display:none}
+@media(max-width:620px){.candbar a{padding:13px 11px;font-size:12px}.candbar .lg{display:none}.candbar .sh{display:inline}}
 </style>
 </head>
 <body>
