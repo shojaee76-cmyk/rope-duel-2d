@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Candidate 3 - The Ring: order flow as the health bars</title>
+<meta name="description" content="Two cat duelists in a spotlight ring where the buy and sell shares of live BTC/USDT order flow are the health bars, and the tape runs as the ticker rib.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0705'/%3E%3Cpath d='M3 21c6-9 20-9 26 0' stroke='%23FFC24A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='20' r='4' fill='%23FFC24A'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="c.css">
+</head>
+<body>
+<div class="candbar bottom"><a href="c1.html">1 &middot; The Rope</a><a href="c2.html">2 &middot; The Bridge</a><a class="on" href="c3.html">3 &middot; The Ring</a></div>
+
+<div class="wrap">
+  <main class="stage" id="stage">
+    <canvas id="ring" aria-label="Two cat duelists in a spotlight ring; the buy and sell shares of live BTC/USDT order flow are the health bars"></canvas>
+
+    <div class="c3-hud">
+      <div class="c3-bars">
+        <div class="c3-fighter l">
+          <p class="nm">Don Gato &middot; sell</p>
+          <div class="bar sell"><span id="bar-sell"></span></div>
+          <div class="c3-num"><span class="l" id="pct-sell">0%</span><span class="act" id="act-sell"></span></div>
+        </div>
+        <div class="c3-clock">
+          <p class="rnd" id="round">ROUND 1</p>
+          <p class="tm" id="clock">05:00</p>
+        </div>
+        <div class="c3-fighter r">
+          <p class="nm">Sultan Bigotes &middot; buy</p>
+          <div class="bar buy"><span id="bar-buy"></span></div>
+          <div class="c3-num"><span class="act" id="act-buy"></span><span class="r" id="pct-buy">0%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="c3-price" style="display:none"><p class="p" id="price">-</p><p class="s">BTC/USDT &middot; <span id="tps">0</span> trades/s &middot; <span class="chg" id="chg">-</span></p></div>
+    <div class="badge" id="badge" style="position:absolute;left:16px;bottom:44px;z-index:5"><span class="dot"></span><span id="badge-text">Connecting</span></div>
+    <div style="display:none"><span id="pt-price"></span></div>
+  </main>
+</div>
+
+<div class="boot" id="boot"><span>Turning up the house lights</span></div>
+<script type="module" src="c3.js"></script>
+</body>
+</html>

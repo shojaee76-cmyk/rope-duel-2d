@@ -1,15 +1,51 @@
 {
- "build": "2026-09-21T21:48:42.205Z",
- "bundleBytes": 70630,
+ "build": "2026-09-21T23:07:09.786Z",
+ "totalBytes": 226376,
+ "poseBytes": 187745,
  "files": {
-  "bundle.js": "15dc56ddb7f17bcd",
-  "index.html": "ec35bc5ed69c8a4b",
-  "styles.css": "b3782a0799d4e78f",
-  "fonts/bsd-700.woff2": "d2d55115d0d7047c",
-  "fonts/bsd-800.woff2": "088f423f09136bc9",
-  "fonts/iserif-400.woff2": "7796998dac1ab02b",
-  "fonts/iserif-400i.woff2": "1d6e1bd7bc12e292",
-  "fonts/mm-500.woff2": "ec720249f8767b6b",
-  "fonts/mm-700.woff2": "ca5e9443be02d10c"
+  "bundle.js": {
+   "bytes": 70630,
+   "sha": "15dc56ddb7f17bcd"
+  },
+  "c1.js": {
+   "bytes": 52353,
+   "sha": "4f12139f49425906"
+  },
+  "c2.js": {
+   "bytes": 33857,
+   "sha": "dda7fe67fb9b35da"
+  },
+  "c3.js": {
+   "bytes": 30421,
+   "sha": "6a8dca7f0ceadb27"
+  },
+  "index.html": {
+   "bytes": 5411,
+   "sha": "4b9b2045cff87e99"
+  },
+  "c1.html": {
+   "bytes": 5116,
+   "sha": "baf389b738940a4b"
+  },
+  "c2.html": {
+   "bytes": 2709,
+   "sha": "70d2636d85aabc0d"
+  },
+  "c3.html": {
+   "bytes": 2551,
+   "sha": "8ecfd8fbc777ab29"
+  },
+  "styles.css": {
+   "bytes": 10861,
+   "sha": "be4c5baef858cbac"
+  },
+  "c.css": {
+   "bytes": 8217,
+   "sha": "2f63c16b392e7944"
+  },
+  "v1/index.html": {
+   "bytes": 4250,
+   "sha": "ec35bc5ed69c8a4b"
+  }
  }
 }

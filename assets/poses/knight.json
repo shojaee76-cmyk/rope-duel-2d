@@ -1,0 +1,90 @@
+[
+ {
+  "file": "knight-00.png",
+  "w": 290,
+  "h": 347,
+  "cx": 0.475,
+  "footX": 0.5,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 28122,
+  "touchesEdge": false
+ },
+ {
+  "file": "knight-01.png",
+  "w": 257,
+  "h": 296,
+  "cx": 0.479,
+  "footX": 0.56,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 27139,
+  "touchesEdge": false
+ },
+ {
+  "file": "knight-02.png",
+  "w": 342,
+  "h": 363,
+  "cx": 0.404,
+  "footX": 0.453,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 29011,
+  "touchesEdge": true
+ },
+ {
+  "file": "knight-03.png",
+  "w": 320,
+  "h": 336,
+  "cx": 0.592,
+  "footX": 0.466,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 28275,
+  "touchesEdge": true
+ },
+ {
+  "file": "knight-10.png",
+  "w": 327,
+  "h": 339,
+  "cx": 0.445,
+  "footX": 0.403,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 31799,
+  "touchesEdge": true
+ },
+ {
+  "file": "knight-11.png",
+  "w": 344,
+  "h": 358,
+  "cx": 0.522,
+  "footX": 0.517,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 28925,
+  "touchesEdge": true
+ },
+ {
+  "file": "knight-12.png",
+  "w": 320,
+  "h": 335,
+  "cx": 0.562,
+  "footX": 0.52,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 31150,
+  "touchesEdge": true
+ },
+ {
+  "file": "knight-13.png",
+  "w": 327,
+  "h": 333,
+  "cx": 0.553,
+  "footX": 0.563,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 30046,
+  "touchesEdge": true
+ }
+]

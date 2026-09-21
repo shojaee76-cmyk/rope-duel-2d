@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Candidate 2 - The Bridge: the fight floor is the tape</title>
+<meta name="description" content="Two cat duelists fight on a bridge built out of the last 96 one-second BTC/USDT candles: every second of trade is a pier, and the deck is the price.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0705'/%3E%3Cpath d='M3 21c6-9 20-9 26 0' stroke='%23FFC24A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='20' r='4' fill='%23FFC24A'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="c.css">
+</head>
+<body>
+<div class="candbar"><a href="c1.html">1 &middot; The Rope</a><a class="on" href="c2.html">2 &middot; The Bridge</a><a href="c3.html">3 &middot; The Ring</a></div>
+
+<div class="wrap">
+  <header class="c2-top">
+    <div class="c2-title">
+      <h1>The Rope Duel &middot; The Bridge</h1>
+      <p>Every second of trade is a pier. The deck they fight on is the price itself, so the whole chart is load bearing and there is no panel left to read.</p>
+    </div>
+    <div class="c2-quote">
+      <div><span class="price" id="price">-</span><span class="chg" id="chg">-</span></div>
+      <p class="sub"><span id="tps">0</span> fills/s &middot; deck <span id="coverage">0s / 96s</span></p>
+      <div class="badge" id="badge"><span class="dot"></span><span id="badge-text">Connecting</span></div>
+    </div>
+  </header>
+
+  <main class="stage" id="stage">
+    <canvas id="bridge" aria-label="Cat duelists fighting on a bridge whose piers are one second BTC/USDT candles and whose deck is the price line"></canvas>
+  </main>
+
+  <footer class="c2-foot">
+    <div class="c2-legend">
+      <span class="up"><i></i>second closed up</span>
+      <span class="dn"><i></i>second closed down</span>
+      <span>the deck is the close of each second</span>
+    </div>
+    <div class="c2-side">
+      <div><p class="k">Sell &middot; Don Gato</p><p class="v sell" id="num-sell">0%</p></div>
+      <div><p class="k">Buy &middot; Sultan Bigotes</p><p class="v buy" id="num-buy">0%</p></div>
+      <div><p class="k">Tape time</p><p class="v mono" id="axis">--:--</p></div>
+    </div>
+    <div style="display:none">
+      <span id="bar-sell"></span><span id="bar-buy"></span>
+      <span id="act-sell"></span><span id="act-buy"></span><span id="pt-price"></span>
+    </div>
+  </footer>
+</div>
+
+<div class="boot" id="boot"><span>Laying the piers</span></div>
+<script type="module" src="c2.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Rope Duel - 2D shadow cut: live BTC/USDT order flow</title>
+<meta name="description" content="Live BTC/USDT order flow performed on a lit shadow screen: two cut-leather cats duel on a rope that is the price line itself.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0705'/%3E%3Cpath d='M3 21c6-9 20-9 26 0' stroke='%23FFC24A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='20' r='4' fill='%23FFC24A'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="booth" id="booth">
+
+  <header class="band">
+    <div class="brand">
+      <h1>The Rope Duel</h1>
+      <p class="sub">2D &middot; Shadow Cut</p>
+    </div>
+    <p class="tagline"><em>The green lamp is buy pressure, the red lamp is sell pressure, and the rope is the last <span id="tag-span">96</span> seconds of BTC/USDT.<br>Two cats fight on it.</em></p>
+    <div class="quote">
+      <div class="badge" id="badge"><span class="dot"></span><span id="badge-text">Connecting</span></div>
+      <div class="price-row">
+        <span class="price" id="price">-</span>
+        <span class="chg" id="chg">-</span>
+      </div>
+      <p class="quote-sub"><span id="tps">0</span> trades/s &middot; 24h <span id="hilo">- / -</span></p>
+    </div>
+  </header>
+
+  <main class="stage" id="stage">
+    <canvas id="screen" aria-label="Shadow screen: two cut-leather cats duel on a rope shaped like the live BTC/USDT price line"></canvas>
+    <div class="pricetag" id="pricetag"><span id="pt-price">-</span><i id="pt-arrow"></i></div>
+    <div class="tags" id="tags"></div>
+    <button class="clap" id="clap" type="button" aria-label="Clap for the fighters">Clap</button>
+  </main>
+
+  <footer class="playbill">
+    <div class="plate plate-sell" id="plate-sell">
+      <p class="role">Sell pressure</p>
+      <p class="name">Don Gato</p>
+      <p class="act" id="act-sell">En garde</p>
+    </div>
+
+    <div class="scale">
+      <p class="cap">Pressure &middot; 30s window</p>
+      <svg class="scale-svg" viewBox="0 0 240 92" role="img" aria-label="Balance beam tilted by buy and sell pressure">
+        <g id="beam" transform="rotate(0 120 44)">
+          <line class="beam-bar" x1="34" y1="44" x2="206" y2="44"></line>
+          <g class="pan" id="pan-sell" transform="translate(34,44)">
+            <circle class="halo halo-sell" r="17"></circle>
+            <path class="lamp lamp-sell" d="M-9 3 h18 l-3 7 h-12 z M-4 -1 a4 4 0 0 1 8 0 z"></path>
+            <line class="wire" x1="0" y1="0" x2="0" y2="10"></line>
+          </g>
+          <g class="pan" id="pan-buy" transform="translate(206,44)">
+            <circle class="halo halo-buy" r="17"></circle>
+            <path class="lamp lamp-buy" d="M-9 3 h18 l-3 7 h-12 z M-4 -1 a4 4 0 0 1 8 0 z"></path>
+            <line class="wire" x1="0" y1="0" x2="0" y2="10"></line>
+          </g>
+        </g>
+        <path class="post" d="M120 40 v40 M104 84 h32"></path>
+        <circle class="pivot" cx="120" cy="42" r="3.4"></circle>
+      </svg>
+      <div class="lamp-nums">
+        <span class="num num-sell" id="num-sell">0%</span>
+        <span class="num num-buy" id="num-buy">0%</span>
+      </div>
+    </div>
+
+    <div class="plate plate-buy" id="plate-buy">
+      <p class="role">Buy pressure</p>
+      <p class="name">Sultan Bigotes</p>
+      <p class="act" id="act-buy">En garde</p>
+    </div>
+
+    <div class="tape">
+      <div class="tape-head">
+        <p class="cap cap-tape">1s tape &middot; last <span id="tape-span">96</span>s</p>
+        <p class="readout" id="readout">Tap or hover a candle for its close</p>
+      </div>
+      <canvas id="rail" height="104" aria-label="One second BTC/USDT candles"></canvas>
+    </div>
+
+    <p class="fineprint">Not financial advice: the duel is decoration, the tape is real.</p>
+    <p class="fineprint">Every number here comes from a public BTC/USDT stream.</p>
+  </footer>
+
+  <div class="boot" id="boot"><span>Lacing the screen</span></div>
+</div>
+<script src="bundle.js"></script>
+</body>
+</html>

@@ -3,89 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Rope Duel - 2D shadow cut: live BTC/USDT order flow</title>
-<meta name="description" content="Live BTC/USDT order flow performed on a lit shadow screen: two cut-leather cats duel on a rope that is the price line itself.">
+<title>The Rope Duel - 2D: three cuts on the live BTC/USDT tape</title>
+<meta name="description" content="Three 2D designs for the Rope Duel, all on the live BTC/USDT tape, all with drawn cat duelists. Pick one.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230A0705'/%3E%3Cpath d='M3 21c6-9 20-9 26 0' stroke='%23FFC24A' stroke-width='2' fill='none'/%3E%3Ccircle cx='16' cy='20' r='4' fill='%23FFC24A'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="c.css">
+<style>
+  .wrap { overflow-y: auto; }
+  .pick { max-width: 1080px; margin: 0 auto; padding: 58px 20px 40px; }
+  .pick h1 { font: 800 clamp(30px, 7vw, 68px) / 0.92 'Big Shoulders Display', system-ui, sans-serif; text-transform: uppercase; margin: 0 0 10px; letter-spacing: 0.005em; }
+  .pick .lede { font: italic 400 clamp(15px, 2vw, 21px) / 1.45 'Instrument Serif', serif; color: #D6C6A8; max-width: 62ch; margin: 0 0 6px; }
+  .pick .note { font: 500 11.5px/1.6 'Martian Mono', monospace; color: #9C8A6E; max-width: 78ch; margin: 12px 0 0; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr); margin: 26px 0 0; }
+  .card { display: block; text-decoration: none; color: inherit; border: 1px solid rgba(255, 194, 74, 0.22); background: #0C0907; border-radius: 3px; overflow: hidden; transition: border-color .18s ease, transform .18s ease; }
+  .card:hover { border-color: rgba(255, 194, 74, 0.6); transform: translateY(-2px); }
+  .card .thumb { position: relative; aspect-ratio: 16/10; background: #060504; overflow: hidden; }
+  .card .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card .no { position: absolute; left: 0; top: 0; padding: 7px 10px; background: #FFC24A; color: #150F08; font: 700 11px/1 'Martian Mono', monospace; letter-spacing: 0.1em; }
+  .card .body { padding: 13px 14px 16px; }
+  .card h2 { font: 800 22px/1 'Big Shoulders Display', sans-serif; text-transform: uppercase; margin: 0 0 7px; letter-spacing: 0.02em; }
+  .card p { margin: 0; font: 500 12.5px/1.62 'Martian Mono', monospace; color: #BCA98C; }
+  .card .keys { margin-top: 10px; font: 500 11px/1.7 'Martian Mono', monospace; color: #8C7A60; }
+  .card .keys b { color: #FFC24A; font-weight: 500; }
+  .foot { margin: 30px 0 0; padding-top: 16px; border-top: 1px solid rgba(255, 194, 74, 0.14); font: 500 11.5px/1.7 'Martian Mono', monospace; color: #8C7A60; }
+  .foot a { color: #C9B79A; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } .card .thumb { aspect-ratio: 16/9; } }
+</style>
 </head>
 <body>
-<div class="booth" id="booth">
+<div class="candbar"><a href="c1.html">1 &middot; The Rope</a><a href="c2.html">2 &middot; The Bridge</a><a href="c3.html">3 &middot; The Ring</a></div>
 
-  <header class="band">
-    <div class="brand">
-      <h1>The Rope Duel</h1>
-      <p class="sub">2D &middot; Shadow Cut</p>
-    </div>
-    <p class="tagline"><em>The green lamp is buy pressure, the red lamp is sell pressure, and the rope is the last <span id="tag-span">96</span> seconds of BTC/USDT.<br>Two cats fight on it.</em></p>
-    <div class="quote">
-      <div class="badge" id="badge"><span class="dot"></span><span id="badge-text">Connecting</span></div>
-      <div class="price-row">
-        <span class="price" id="price">-</span>
-        <span class="chg" id="chg">-</span>
+<div class="wrap">
+<div class="pick">
+  <h1>The Rope Duel &middot; three cuts</h1>
+  <p class="lede">Same two cats, same live tape, three different designs. The cats are drawn art now, not shapes assembled from code, and each cut presents the fight a different way.</p>
+  <p class="note">Every page pulls live BTC/USDT trade flow and turns it into the duel: order flow picks who attacks, and the price is the ground they stand on. Nothing here is invented history, the tape writes itself for the first 96 seconds.</p>
+
+  <div class="grid">
+    <a class="card" href="c1.html">
+      <div class="thumb"><span class="no">CUT 1</span><img src="shots/c1-desktop.webp" alt="The Rope: two cat silhouettes duelling on a rope that is the live price line"></div>
+      <div class="body">
+        <h2>The Rope</h2>
+        <p>The lit shadow screen. The rope they fight on is the price, one lamp per side is the pressure, and the one second tape sits under the stage.</p>
+        <p class="keys"><b>composition</b> proscenium, data below &middot; <b>type</b> playbill</p>
       </div>
-      <p class="quote-sub"><span id="tps">0</span> trades/s &middot; 24h <span id="hilo">- / -</span></p>
-    </div>
-  </header>
-
-  <main class="stage" id="stage">
-    <canvas id="screen" aria-label="Shadow screen: two cut-leather cats duel on a rope shaped like the live BTC/USDT price line"></canvas>
-    <div class="pricetag" id="pricetag"><span id="pt-price">-</span><i id="pt-arrow"></i></div>
-    <div class="tags" id="tags"></div>
-    <button class="clap" id="clap" type="button" aria-label="Clap for the fighters">Clap</button>
-  </main>
-
-  <footer class="playbill">
-    <div class="plate plate-sell" id="plate-sell">
-      <p class="role">Sell pressure</p>
-      <p class="name">Don Gato</p>
-      <p class="act" id="act-sell">En garde</p>
-    </div>
-
-    <div class="scale">
-      <p class="cap">Pressure &middot; 30s window</p>
-      <svg class="scale-svg" viewBox="0 0 240 92" role="img" aria-label="Balance beam tilted by buy and sell pressure">
-        <g id="beam" transform="rotate(0 120 44)">
-          <line class="beam-bar" x1="34" y1="44" x2="206" y2="44"></line>
-          <g class="pan" id="pan-sell" transform="translate(34,44)">
-            <circle class="halo halo-sell" r="17"></circle>
-            <path class="lamp lamp-sell" d="M-9 3 h18 l-3 7 h-12 z M-4 -1 a4 4 0 0 1 8 0 z"></path>
-            <line class="wire" x1="0" y1="0" x2="0" y2="10"></line>
-          </g>
-          <g class="pan" id="pan-buy" transform="translate(206,44)">
-            <circle class="halo halo-buy" r="17"></circle>
-            <path class="lamp lamp-buy" d="M-9 3 h18 l-3 7 h-12 z M-4 -1 a4 4 0 0 1 8 0 z"></path>
-            <line class="wire" x1="0" y1="0" x2="0" y2="10"></line>
-          </g>
-        </g>
-        <path class="post" d="M120 40 v40 M104 84 h32"></path>
-        <circle class="pivot" cx="120" cy="42" r="3.4"></circle>
-      </svg>
-      <div class="lamp-nums">
-        <span class="num num-sell" id="num-sell">0%</span>
-        <span class="num num-buy" id="num-buy">0%</span>
+    </a>
+    <a class="card" href="c2.html">
+      <div class="thumb"><span class="no">CUT 2</span><img src="shots/c2-desktop.webp" alt="The Bridge: cat silhouettes fighting on a bridge whose piers are one second candlesticks"></div>
+      <div class="body">
+        <h2>The Bridge</h2>
+        <p>The floor is the tape. Every second of trade is a pier, the deck they stand on is the price, and the whole chart is load bearing.</p>
+        <p class="keys"><b>composition</b> full bleed vista, no chart panel &middot; <b>type</b> caption rail</p>
       </div>
-    </div>
-
-    <div class="plate plate-buy" id="plate-buy">
-      <p class="role">Buy pressure</p>
-      <p class="name">Sultan Bigotes</p>
-      <p class="act" id="act-buy">En garde</p>
-    </div>
-
-    <div class="tape">
-      <div class="tape-head">
-        <p class="cap cap-tape">1s tape &middot; last <span id="tape-span">96</span>s</p>
-        <p class="readout" id="readout">Tap or hover a candle for its close</p>
+    </a>
+    <a class="card" href="c3.html">
+      <div class="thumb"><span class="no">CUT 3</span><img src="shots/c3-desktop.webp" alt="The Ring: cat silhouettes in a spotlight boxing ring with order flow as health bars"></div>
+      <div class="body">
+        <h2>The Ring</h2>
+        <p>A fighting game presentation: the buy and sell shares are the health bars, so one side eating the other is the entire screen.</p>
+        <p class="keys"><b>composition</b> arena, HUD on top &middot; <b>type</b> broadcast</p>
       </div>
-      <canvas id="rail" height="104" aria-label="One second BTC/USDT candles"></canvas>
-    </div>
+    </a>
+  </div>
 
-    <p class="fineprint">Not financial advice: the duel is decoration, the tape is real.</p>
-    <p class="fineprint">Every number here comes from a public BTC/USDT stream.</p>
-  </footer>
-
-  <div class="boot" id="boot"><span>Lacing the screen</span></div>
+  <p class="foot">
+    Live tape: BTC/USDT trade stream, no account, no keys. Two cats: Don Gato (sell, red) and Sultan Bigotes (buy, green).<br>
+    The first build of this page, with primitive cat shapes, is kept untouched at <a href="v1/index.html">/v1/</a> for comparison.
+  </p>
 </div>
-<script src="bundle.js"></script>
+</div>
 </body>
 </html>

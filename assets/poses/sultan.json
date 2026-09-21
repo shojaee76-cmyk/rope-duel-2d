@@ -1,0 +1,90 @@
+[
+ {
+  "file": "sultan-00.png",
+  "w": 241,
+  "h": 352,
+  "cx": 0.57,
+  "footX": 0.611,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 30682,
+  "touchesEdge": false
+ },
+ {
+  "file": "sultan-01.png",
+  "w": 263,
+  "h": 282,
+  "cx": 0.442,
+  "footX": 0.618,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 27579,
+  "touchesEdge": false
+ },
+ {
+  "file": "sultan-02.png",
+  "w": 228,
+  "h": 339,
+  "cx": 0.559,
+  "footX": 0.558,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 31317,
+  "touchesEdge": false
+ },
+ {
+  "file": "sultan-03.png",
+  "w": 310,
+  "h": 313,
+  "cx": 0.496,
+  "footX": 0.698,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 29211,
+  "touchesEdge": false
+ },
+ {
+  "file": "sultan-10.png",
+  "w": 328,
+  "h": 305,
+  "cx": 0.476,
+  "footX": 0.389,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 31149,
+  "touchesEdge": true
+ },
+ {
+  "file": "sultan-11.png",
+  "w": 313,
+  "h": 341,
+  "cx": 0.65,
+  "footX": 0.485,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 28183,
+  "touchesEdge": true
+ },
+ {
+  "file": "sultan-12.png",
+  "w": 344,
+  "h": 313,
+  "cx": 0.484,
+  "footX": 0.529,
+  "faceRight": true,
+  "bottomPad": 6,
+  "inkPx": 35895,
+  "touchesEdge": true
+ },
+ {
+  "file": "sultan-13.png",
+  "w": 329,
+  "h": 311,
+  "cx": 0.508,
+  "footX": 0.654,
+  "faceRight": false,
+  "bottomPad": 6,
+  "inkPx": 29445,
+  "touchesEdge": true
+ }
+]
