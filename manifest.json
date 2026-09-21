@@ -1,0 +1,15 @@
+{
+ "build": "2026-09-21T21:48:42.205Z",
+ "bundleBytes": 70630,
+ "files": {
+  "bundle.js": "15dc56ddb7f17bcd",
+  "index.html": "ec35bc5ed69c8a4b",
+  "styles.css": "b3782a0799d4e78f",
+  "fonts/bsd-700.woff2": "d2d55115d0d7047c",
+  "fonts/bsd-800.woff2": "088f423f09136bc9",
+  "fonts/iserif-400.woff2": "7796998dac1ab02b",
+  "fonts/iserif-400i.woff2": "1d6e1bd7bc12e292",
+  "fonts/mm-500.woff2": "ec720249f8767b6b",
+  "fonts/mm-700.woff2": "ca5e9443be02d10c"
+ }
+}
