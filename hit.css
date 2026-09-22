@@ -1,0 +1,73 @@
+/* THE HIT. The canvas is the page. Type sits on top of it and never boxes it in. */
+
+@font-face { font-family: 'Big Shoulders Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(fonts/bsd-800.woff2) format('woff2'); }
+@font-face { font-family: 'Martian Mono'; font-style: normal; font-weight: 500; font-display: swap; src: url(fonts/mm-500.woff2) format('woff2'); }
+@font-face { font-family: 'Martian Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(fonts/mm-700.woff2) format('woff2'); }
+
+:root {
+  --ink: #100c09;
+  --bone: #f2e3c6;
+  --bone-dim: #c9b694;
+  --muted: #9c8a6e;
+  --gold: #ffb02e;
+  --blood: #ff3b1f;
+  --f-display: 'Big Shoulders Display', 'Arial Narrow', system-ui, sans-serif;
+  --f-mono: 'Martian Mono', ui-monospace, 'Courier New', monospace;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--ink); overflow: hidden; }
+body { color: var(--bone); font-family: var(--f-mono); -webkit-font-smoothing: antialiased; }
+
+#stage { position: fixed; inset: 0; width: 100%; height: 100%; display: block; background: var(--ink); }
+
+header, footer, #status { position: fixed; z-index: 2; pointer-events: none; }
+
+header { top: 0; left: 0; right: 0; display: flex; justify-content: space-between; align-items: baseline; padding: 16px 20px; }
+.brand { margin: 0; font-size: 12px; letter-spacing: 0.18em; color: var(--muted); }
+.title { margin: 0; font-family: var(--f-display); font-weight: 800; font-size: 28px; letter-spacing: 0.04em; line-height: 1; }
+
+footer {
+  bottom: 0; left: 0; right: 0;
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: end;
+  gap: 16px; padding: 16px 20px 18px;
+}
+.who { display: flex; flex-direction: column; gap: 2px; }
+.who:last-child { text-align: right; }
+.nm { font-family: var(--f-display); font-weight: 800; font-size: 22px; letter-spacing: 0.03em; line-height: 1; }
+.role { font-size: 12px; letter-spacing: 0.16em; color: var(--muted); }
+.who[data-side="sell"] .role { color: var(--blood); }
+.who[data-side="buy"] .role { color: var(--gold); }
+#side[data-side="buy"] { color: var(--gold); }
+#side[data-side="sell"] { color: var(--blood); }
+
+.tape-wrap { width: min(420px, 46vw); display: flex; flex-direction: column; align-items: center; gap: 4px; }
+#tape { width: 100%; height: 36px; display: block; }
+.price { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; font-size: 14px; letter-spacing: 0.04em; }
+.price small { font-weight: 500; font-size: 10px; letter-spacing: 0.14em; color: var(--muted); }
+
+#status {
+  top: 18px; left: 50%; transform: translateX(-50%);
+  margin: 0; font-size: 11px; letter-spacing: 0.2em; color: var(--muted);
+}
+
+#boot {
+  position: fixed; inset: 0; z-index: 5; margin: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--ink); color: var(--bone);
+  font-family: var(--f-display); font-weight: 800; font-size: 42px; letter-spacing: 0.12em;
+}
+
+@media (max-width: 640px) {
+  header { padding: 12px 14px; }
+  .title { font-size: 22px; }
+  footer { padding: 12px 14px 14px; gap: 8px; }
+  .nm { font-size: 16px; }
+  .tape-wrap { width: min(240px, 42vw); }
+  #tape { height: 26px; }
+  #status { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #boot { display: none; }
+}

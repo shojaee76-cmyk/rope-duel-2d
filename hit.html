@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE HIT - The Rope Duel</title>
+<meta name="description" content="Two cats, one rope, the live BTC tape. The fight is the whole screen.">
+<link rel="stylesheet" href="hit.css">
+</head>
+<body>
+<canvas id="stage"></canvas>
+
+<header>
+  <p class="brand">THE ROPE DUEL</p>
+  <p class="title">THE HIT</p>
+</header>
+
+<footer>
+  <div class="who" data-side="sell">
+    <span class="nm">DON GATO</span>
+    <span class="role">SELL</span>
+  </div>
+  <div class="tape-wrap">
+    <canvas id="tape"></canvas>
+    <p class="price"><span id="price">00000</span> <small>USDT</small></p>
+  </div>
+  <div class="who" data-side="buy">
+    <span class="role" id="side">BUY</span>
+    <span class="nm">SULTAN BIGOTES</span>
+  </div>
+</footer>
+
+<p id="status">WAITING</p>
+<p id="boot">SHARPENING</p>
+
+<script src="hit.js"></script>
+</body>
+</html>
