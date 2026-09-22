@@ -51,7 +51,7 @@ body {
 /* ------------------------------------------------------------------ c2 --- */
 .c2-top {
   display: flex; align-items: flex-end; justify-content: space-between; gap: 16px;
-  padding: 52px 20px 10px;
+  padding: 76px 20px 10px;
 }
 .c2-title h1 {
   font: 800 clamp(22px, 4.6vw, 42px) / 0.9 'Big Shoulders Display', system-ui, sans-serif;
