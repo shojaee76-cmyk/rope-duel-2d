@@ -8,7 +8,7 @@
   --ink: #100c09;
   --bone: #f2e3c6;
   --bone-dim: #c9b694;
-  --muted: #9c8a6e;
+  --muted: #b09d80;
   --gold: #ffb02e;
   --blood: #ff3b1f;
   --f-display: 'Big Shoulders Display', 'Arial Narrow', system-ui, sans-serif;
@@ -24,7 +24,7 @@ body { color: var(--bone); font-family: var(--f-mono); -webkit-font-smoothing: a
 header, footer, #status { position: fixed; z-index: 2; pointer-events: none; }
 
 header { top: 0; left: 0; right: 0; display: flex; justify-content: space-between; align-items: baseline; padding: 16px 20px; }
-.brand { margin: 0; font-size: 12px; letter-spacing: 0.18em; color: var(--muted); }
+.brand { margin: 0; font-size: 12px; letter-spacing: 0.18em; color: var(--bone-dim); }
 .title { margin: 0; font-family: var(--f-display); font-weight: 800; font-size: 28px; letter-spacing: 0.04em; line-height: 1; }
 
 footer {
@@ -35,7 +35,7 @@ footer {
 .who { display: flex; flex-direction: column; gap: 2px; }
 .who:last-child { text-align: right; }
 .nm { font-family: var(--f-display); font-weight: 800; font-size: 22px; letter-spacing: 0.03em; line-height: 1; }
-.role { font-size: 12px; letter-spacing: 0.16em; color: var(--muted); }
+.role { font-size: 12px; letter-spacing: 0.16em; color: var(--muted); font-weight: 700; }
 .who[data-side="sell"] .role { color: var(--blood); }
 .who[data-side="buy"] .role { color: var(--gold); }
 #side[data-side="buy"] { color: var(--gold); }
@@ -43,12 +43,12 @@ footer {
 
 .tape-wrap { width: min(420px, 46vw); display: flex; flex-direction: column; align-items: center; gap: 4px; }
 #tape { width: 100%; height: 36px; display: block; }
-.price { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; font-size: 14px; letter-spacing: 0.04em; }
-.price small { font-weight: 500; font-size: 10px; letter-spacing: 0.14em; color: var(--muted); }
+.price { margin: 0; font-variant-numeric: tabular-nums; font-weight: 700; font-size: 15px; letter-spacing: 0.04em; }
+.price small { font-weight: 700; font-size: 12px; letter-spacing: 0.14em; color: var(--bone-dim); }
 
 #status {
   top: 18px; left: 50%; transform: translateX(-50%);
-  margin: 0; font-size: 11px; letter-spacing: 0.2em; color: var(--muted);
+  margin: 0; font-size: 12px; letter-spacing: 0.2em; color: var(--bone-dim);
 }
 
 #boot {
@@ -63,6 +63,7 @@ footer {
   .title { font-size: 22px; }
   footer { padding: 12px 14px 14px; gap: 8px; }
   .nm { font-size: 16px; }
+  .role { font-size: 11px; font-weight: 700; }
   .tape-wrap { width: min(240px, 42vw); }
   #tape { height: 26px; }
   #status { display: none; }
