@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3306934,
- "fileCount": 99,
+ "totalBytes": 3344228,
+ "fileCount": 102,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -289,8 +289,8 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 2187,
-   "sha": "9df2f40980f8e462"
+   "bytes": 1700,
+   "sha": "ced1b254d3c8bebb"
   },
   "lab.js": {
    "bytes": 39118,
@@ -347,6 +347,18 @@
   "tension.js": {
    "bytes": 30313,
    "sha": "841ff2519dbf4407"
+  },
+  "theatre.css": {
+   "bytes": 4596,
+   "sha": "9249e3f45aacdd75"
+  },
+  "theatre.html": {
+   "bytes": 1700,
+   "sha": "ced1b254d3c8bebb"
+  },
+  "theatre.js": {
+   "bytes": 31485,
+   "sha": "4279854692475ce0"
   },
   "v1/bundle.js": {
    "bytes": 70816,
