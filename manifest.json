@@ -1,6 +1,6 @@
 {
- "build": "2026-09-24T14:34:55.815Z",
- "totalBytes": 3263159,
+ "build": "deterministic",
+ "totalBytes": 3261465,
  "fileCount": 96,
  "poseBytes": 187745,
  "files": {
@@ -61,8 +61,8 @@
    "sha": "7e1a615910b19032"
   },
   "assets/poses/knight.json": {
-   "bytes": 1454,
-   "sha": "155eede982f065dc"
+   "bytes": 1365,
+   "sha": "8d2a82031d19c8e0"
   },
   "assets/poses/sultan-00.png": {
    "bytes": 10337,
@@ -97,8 +97,8 @@
    "sha": "37c585b90987ecee"
   },
   "assets/poses/sultan.json": {
-   "bytes": 1456,
-   "sha": "51c7b85370eda2b7"
+   "bytes": 1367,
+   "sha": "ac4c83e2f0e05812"
   },
   "assets/puppet/knight/armF.png": {
    "bytes": 67455,
@@ -121,8 +121,8 @@
    "sha": "f515dcc98ad2d805"
   },
   "assets/puppet/knight/parts.json": {
-   "bytes": 3206,
-   "sha": "3733d5ef9c60aa22"
+   "bytes": 2933,
+   "sha": "dd7bab2ace9c9b99"
   },
   "assets/puppet/knight/shin.png": {
    "bytes": 9970,
@@ -165,8 +165,8 @@
    "sha": "1ecd342c0e195bfe"
   },
   "assets/puppet/sultan/parts.json": {
-   "bytes": 3202,
-   "sha": "9d6c59b633fad9f8"
+   "bytes": 2929,
+   "sha": "1b1ddb41daacfb5c"
   },
   "assets/puppet/sultan/shin.png": {
    "bytes": 46545,
@@ -189,28 +189,28 @@
    "sha": "80fe44a397244a18"
   },
   "c.css": {
-   "bytes": 8431,
-   "sha": "0392ef445d40af16"
+   "bytes": 8308,
+   "sha": "315a4ec00a866a90"
   },
   "c1.html": {
-   "bytes": 5472,
-   "sha": "6fbf7c3ef8c9b6a2"
+   "bytes": 5370,
+   "sha": "1025087bad21458a"
   },
   "c1.js": {
    "bytes": 52825,
    "sha": "7041fddf9f493649"
   },
   "c2.html": {
-   "bytes": 2867,
-   "sha": "8161b4235ab2cd4c"
+   "bytes": 2815,
+   "sha": "b60b2dab71756bc0"
   },
   "c2.js": {
    "bytes": 34340,
    "sha": "f8dd91a79aa8290c"
   },
   "c3.html": {
-   "bytes": 2710,
-   "sha": "8e7d84e7955908ec"
+   "bytes": 2664,
+   "sha": "41766037922a7561"
   },
   "c3.js": {
    "bytes": 30970,
@@ -321,8 +321,8 @@
    "sha": "89e1eccd781acfe0"
   },
   "styles.css": {
-   "bytes": 10861,
-   "sha": "be4c5baef858cbac"
+   "bytes": 10583,
+   "sha": "f51bd3deca6118a4"
   },
   "tension.css": {
    "bytes": 6159,
@@ -381,12 +381,12 @@
    "sha": "84a16e8a09c6fa17"
   },
   "v1/index.html": {
-   "bytes": 4332,
-   "sha": "27fd7995b77ebbcf"
+   "bytes": 4241,
+   "sha": "0fefa2e8ae77f2e5"
   },
   "v1/styles.css": {
-   "bytes": 10861,
-   "sha": "be4c5baef858cbac"
+   "bytes": 10583,
+   "sha": "f51bd3deca6118a4"
   }
  }
 }
