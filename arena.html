@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE RING - rope duel, played</title>
+<meta name="description" content="The rope duel you play: tethered to the live BTC tape, one mat, one boss.">
+<link rel="stylesheet" href="arena.css">
+</head>
+<body>
+<canvas id="stage"></canvas>
+
+<button id="pick" class="pick" type="button">CHOOSE YOUR CAT</button>
+
+<header class="hud">
+  <div class="hoa">
+    <span id="pName">SULTAN BIGOTES</span>
+    <span class="bar"><i id="pBar"></i></span>
+  </div>
+  <div class="mid">
+    <p class="price" id="price">---- <small>USDT</small></p>
+    <p class="flow"><span id="flow">AWAITING TAPE</span></p>
+    <p class="prov" id="prov"></p>
+  </div>
+  <div class="hoa you">
+    <span class="bar"><i id="yBar"></i></span>
+    <span id="yName">DON GATO (you)</span>
+  </div>
+</header>
+
+<p id="boot">SHARPENING</p>
+
+<script type="module" src="arena.js"></script>
+</body>
+</html>

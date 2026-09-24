@@ -1,0 +1,29 @@
+/* arena.css - the playable rope-duel ring chrome */
+
+html,body{margin:0;padding:0;background:#111416;color:#dfe5de;height:100%;overflow:hidden}
+body{font-family:"Big Shoulders Display","Arial Narrow",sans-serif;-webkit-user-select:none;user-select:none}
+
+#stage{position:fixed;inset:0;width:100vw;height:100vh;display:block;touch-action:none}
+
+.hud{position:fixed;left:0;right:0;top:0;display:flex;justify-content:space-between;gap:12px;padding:14px 18px 0;pointer-events:none;z-index:3}
+.hoa{flex:1;display:flex;flex-direction:column;gap:4px;font-size:16px;letter-spacing:.08em;color:#dfe5de}
+.hoa.you{align-items:flex-end}
+.mid{flex:0 0 auto;text-align:center}
+.price{margin:0;font-size:26px;font-weight:700;color:#fff}
+.price small{font-size:14px;color:#8f978d}
+.flow{margin:2px 0 0;font-size:12px;letter-spacing:.14em;color:#8f978d}
+.prov{margin:0;font-size:11px;color:#7b827a}
+.flow[data-side="buy"]{color:#ffb02e}
+.flow[data-side="sell"]{color:#ff5649}
+.bar{display:block;height:7px;background:#22282a;border:1px solid #3a423f;border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;width:100%;background:#dfe5de;transform-origin:left;transition:transform .12s linear}
+.hoa.you .bar i{transform-origin:right;background:#ffb02e}
+.hoa:not(.you) .bar i{background:#ff5649}
+
+#pick{position:fixed;left:50%;bottom:11%;transform:translateX(-50%);z-index:4;background:#111416;color:#dfe5de;border:1px solid #3a423f;padding:12px 28px;
+ font:inherit;font-weight:700;font-size:20px;letter-spacing:.1em;cursor:pointer;border-radius:4px}
+#pick:hover{border-color:#8f978d}
+
+#boot{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:5;font-size:18px;letter-spacing:.2em;pointer-events:none}
+
+canvas{outline:none}
