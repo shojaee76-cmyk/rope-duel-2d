@@ -1,23 +1,23 @@
 {
- "build": "2026-09-24T13:51:53.604Z",
- "totalBytes": 264111,
+ "build": "2026-09-24T14:12:04.862Z",
+ "totalBytes": 264261,
  "poseBytes": 187745,
  "files": {
   "bundle.js": {
-   "bytes": 70630,
-   "sha": "15dc56ddb7f17bcd"
+   "bytes": 70650,
+   "sha": "d05feb5f575af85a"
   },
   "c1.js": {
-   "bytes": 52639,
-   "sha": "f2cc01f0afa88ac3"
+   "bytes": 52659,
+   "sha": "2e8024409d1ea907"
   },
   "c2.js": {
-   "bytes": 34152,
-   "sha": "7c6c1ec798d82e44"
+   "bytes": 34172,
+   "sha": "c3ffe0396fb8f976"
   },
   "c3.js": {
-   "bytes": 30784,
-   "sha": "8e7f2252d9fe9248"
+   "bytes": 30804,
+   "sha": "783a33b24ebf6beb"
   },
   "index.html": {
    "bytes": 2518,
@@ -44,8 +44,8 @@
    "sha": "0392ef445d40af16"
   },
   "tension.js": {
-   "bytes": 30038,
-   "sha": "9a72aa52c30a2d1d"
+   "bytes": 30108,
+   "sha": "15fe9a4fe54c9838"
   },
   "tension.css": {
    "bytes": 6159,

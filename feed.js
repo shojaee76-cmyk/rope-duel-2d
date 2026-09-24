@@ -53,7 +53,8 @@
  * after the handshake (subscribes via URL path), auto re-subscribe on close.
  */
 (function (root, factory) {
-  if (typeof module === 'object' && module.exports) module.exports = factory();
+  const common = globalThis && globalThis.module && globalThis.module.exports;
+  if (common) common.exports = factory();
   else root.BtcTradeFeed = factory();
 })(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
