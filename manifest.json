@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3261465,
- "fileCount": 96,
+ "totalBytes": 3306581,
+ "fileCount": 99,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -216,6 +216,18 @@
    "bytes": 30970,
    "sha": "2a4d52984e1aa867"
   },
+  "catduel.css": {
+   "bytes": 6966,
+   "sha": "c0f15de6b6e17a01"
+  },
+  "catduel.html": {
+   "bytes": 2138,
+   "sha": "3af77a2454a2c168"
+  },
+  "catduel.js": {
+   "bytes": 36392,
+   "sha": "80514389cafc7b4e"
+  },
   "favicon.ico": {
    "bytes": 128,
    "sha": "42506b94ee5f32a9"
@@ -277,8 +289,8 @@
    "sha": "ef392409084c4ab3"
   },
   "index.html": {
-   "bytes": 2518,
-   "sha": "962cf9cafcf64392"
+   "bytes": 2138,
+   "sha": "3af77a2454a2c168"
   },
   "lab.js": {
    "bytes": 39118,
