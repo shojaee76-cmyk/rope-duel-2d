@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 3306581,
+ "totalBytes": 3306934,
  "fileCount": 99,
  "poseBytes": 187745,
  "files": {
@@ -13,8 +13,8 @@
    "sha": "86f52d5c30b15a3f"
   },
   "anim.js": {
-   "bytes": 6627,
-   "sha": "ec18b6496b4d66d7"
+   "bytes": 6678,
+   "sha": "6442fdca74218e34"
   },
   "arena.css": {
    "bytes": 1736,
@@ -25,8 +25,8 @@
    "sha": "b325f73afae7b94c"
   },
   "arena.js": {
-   "bytes": 34259,
-   "sha": "ac886327dc15451c"
+   "bytes": 34310,
+   "sha": "f642bce245edae4c"
   },
   "assets/poses/knight-00.png": {
    "bytes": 12082,
@@ -221,12 +221,12 @@
    "sha": "c0f15de6b6e17a01"
   },
   "catduel.html": {
-   "bytes": 2138,
-   "sha": "3af77a2454a2c168"
+   "bytes": 2187,
+   "sha": "9df2f40980f8e462"
   },
   "catduel.js": {
-   "bytes": 36392,
-   "sha": "80514389cafc7b4e"
+   "bytes": 36443,
+   "sha": "6c6f8833952ea509"
   },
   "favicon.ico": {
    "bytes": 128,
@@ -285,12 +285,12 @@
    "sha": "6eda752f396c9835"
   },
   "hit.js": {
-   "bytes": 35160,
-   "sha": "ef392409084c4ab3"
+   "bytes": 35211,
+   "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 2138,
-   "sha": "3af77a2454a2c168"
+   "bytes": 2187,
+   "sha": "9df2f40980f8e462"
   },
   "lab.js": {
    "bytes": 39118,
@@ -305,8 +305,8 @@
    "sha": "fd766a11cbe7f4eb"
   },
   "riglab.js": {
-   "bytes": 3976,
-   "sha": "fc6d4e47e14afaa8"
+   "bytes": 4027,
+   "sha": "2e2d49e3cd7e1913"
   },
   "shots/c1-desktop.webp": {
    "bytes": 23158,
