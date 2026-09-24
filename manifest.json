@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3344228,
- "fileCount": 102,
+ "totalBytes": 3383689,
+ "fileCount": 105,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -289,8 +289,8 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1700,
-   "sha": "ced1b254d3c8bebb"
+   "bytes": 1451,
+   "sha": "d578b7afcd4da467"
   },
   "lab.js": {
    "bytes": 39118,
@@ -299,6 +299,18 @@
   "puppet-lab.html": {
    "bytes": 239,
    "sha": "210697c5516d0e94"
+  },
+  "rig.css": {
+   "bytes": 4317,
+   "sha": "7f4c286c9be61624"
+  },
+  "rig.html": {
+   "bytes": 1451,
+   "sha": "d578b7afcd4da467"
+  },
+  "rig.js": {
+   "bytes": 33942,
+   "sha": "c290441d9d1a3157"
   },
   "riglab.html": {
    "bytes": 458,
