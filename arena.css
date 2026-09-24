@@ -12,7 +12,7 @@ body{font-family:"Big Shoulders Display","Arial Narrow",sans-serif;-webkit-user-
 .price{margin:0;font-size:26px;font-weight:700;color:#fff}
 .price small{font-size:14px;color:#8f978d}
 .flow{margin:2px 0 0;font-size:12px;letter-spacing:.14em;color:#8f978d}
-.prov{margin:0;font-size:11px;color:#7b827a}
+.prov{margin:0;font-size:12px;color:#9aa29a}
 .flow[data-side="buy"]{color:#ffb02e}
 .flow[data-side="sell"]{color:#ff5649}
 .bar{display:block;height:7px;background:#22282a;border:1px solid #3a423f;border-radius:2px;overflow:hidden}
