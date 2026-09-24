@@ -370,12 +370,15 @@
   BtcTradeFeed.prototype._setStatus = function (status, detail) {
     if (this._status === status && !detail) return;
     this._status = status;
+    var live = status === 'open';
     this._fire(this._chg.status, {
       status: status,
       mode: this.effectiveMode(),
-      endpoint: this._endpoint(),
-      provider: this._kind,
-      providerLabel: PROVIDER_LABELS[this._kind] || this._kind,
+      endpoint: live ? this._endpoint() : null,
+      provider: live ? this._kind : null,
+      providerLabel: live ? (PROVIDER_LABELS[this._kind] || this._kind) : null,
+      connected: live,
+      simulated: status === 'demo',
       attempt: this._attempt,
       detail: detail || null,
       lastError: this._lastError,
@@ -741,10 +744,11 @@
       tps: this._tps,
       status: this._status,
       mode: this.effectiveMode(),
-      connected: this._status === 'open' || this._status === 'demo',
-      endpoint: this._endpoint(),
-      provider: this._kind,                       // 'binance' | 'bybit'
-      providerLabel: PROVIDER_LABELS[this._kind] || this._kind,
+      connected: this._status === 'open',
+      simulated: this._status === 'demo',
+      endpoint: this._status === 'open' ? this._endpoint() : null,
+      provider: this._status === 'open' ? this._kind : null,             // 'binance' | 'bybit'
+      providerLabel: this._status === 'open' ? (PROVIDER_LABELS[this._kind] || this._kind) : null,
       attempt: this._attempt,
       lastError: this._lastError
     };

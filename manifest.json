@@ -1,51 +1,328 @@
 {
- "build": "2026-09-24T14:12:04.862Z",
- "totalBytes": 264261,
+ "build": "2026-09-24T14:34:55.815Z",
+ "totalBytes": 3263159,
+ "fileCount": 96,
  "poseBytes": 187745,
  "files": {
+  ".nojekyll": {
+   "bytes": 0,
+   "sha": "e3b0c44298fc1c14"
+  },
+  "anim.html": {
+   "bytes": 463,
+   "sha": "86f52d5c30b15a3f"
+  },
+  "anim.js": {
+   "bytes": 6627,
+   "sha": "ec18b6496b4d66d7"
+  },
+  "arena.css": {
+   "bytes": 1736,
+   "sha": "b9a7ffec5398c2fe"
+  },
+  "arena.html": {
+   "bytes": 995,
+   "sha": "b325f73afae7b94c"
+  },
+  "arena.js": {
+   "bytes": 34259,
+   "sha": "ac886327dc15451c"
+  },
+  "assets/poses/knight-00.png": {
+   "bytes": 12082,
+   "sha": "73fe2a39d8620fc6"
+  },
+  "assets/poses/knight-01.png": {
+   "bytes": 11264,
+   "sha": "836a5b93f3c3abe0"
+  },
+  "assets/poses/knight-02.png": {
+   "bytes": 13366,
+   "sha": "5576f9a917de51c9"
+  },
+  "assets/poses/knight-03.png": {
+   "bytes": 13520,
+   "sha": "831a28635addb4b6"
+  },
+  "assets/poses/knight-10.png": {
+   "bytes": 12925,
+   "sha": "0f2a391aa5f5fe33"
+  },
+  "assets/poses/knight-11.png": {
+   "bytes": 12814,
+   "sha": "08afe19622b76e10"
+  },
+  "assets/poses/knight-12.png": {
+   "bytes": 13209,
+   "sha": "c805b2e166aac5ee"
+  },
+  "assets/poses/knight-13.png": {
+   "bytes": 13109,
+   "sha": "7e1a615910b19032"
+  },
+  "assets/poses/knight.json": {
+   "bytes": 1454,
+   "sha": "155eede982f065dc"
+  },
+  "assets/poses/sultan-00.png": {
+   "bytes": 10337,
+   "sha": "a740b37a515e1fe7"
+  },
+  "assets/poses/sultan-01.png": {
+   "bytes": 9941,
+   "sha": "54521ef3731c0d6c"
+  },
+  "assets/poses/sultan-02.png": {
+   "bytes": 10229,
+   "sha": "30fcf41081e8749e"
+  },
+  "assets/poses/sultan-03.png": {
+   "bytes": 10412,
+   "sha": "339d0034f743a3b3"
+  },
+  "assets/poses/sultan-10.png": {
+   "bytes": 10116,
+   "sha": "4e4aa54c7669031b"
+  },
+  "assets/poses/sultan-11.png": {
+   "bytes": 10858,
+   "sha": "34691d23a7ad4b2f"
+  },
+  "assets/poses/sultan-12.png": {
+   "bytes": 12868,
+   "sha": "a2503981fd09a099"
+  },
+  "assets/poses/sultan-13.png": {
+   "bytes": 10695,
+   "sha": "37c585b90987ecee"
+  },
+  "assets/poses/sultan.json": {
+   "bytes": 1456,
+   "sha": "51c7b85370eda2b7"
+  },
+  "assets/puppet/knight/armF.png": {
+   "bytes": 67455,
+   "sha": "69e33b33a26415ab"
+  },
+  "assets/puppet/knight/armU.png": {
+   "bytes": 96648,
+   "sha": "2b97ed41c10c45c9"
+  },
+  "assets/puppet/knight/hand.png": {
+   "bytes": 142258,
+   "sha": "143502c1cf988e0f"
+  },
+  "assets/puppet/knight/head.png": {
+   "bytes": 263312,
+   "sha": "9b57c93103977473"
+  },
+  "assets/puppet/knight/neck.png": {
+   "bytes": 120942,
+   "sha": "f515dcc98ad2d805"
+  },
+  "assets/puppet/knight/parts.json": {
+   "bytes": 3206,
+   "sha": "3733d5ef9c60aa22"
+  },
+  "assets/puppet/knight/shin.png": {
+   "bytes": 9970,
+   "sha": "22ae50f2c32682f3"
+  },
+  "assets/puppet/knight/tail.png": {
+   "bytes": 190876,
+   "sha": "d2349242267fa52b"
+  },
+  "assets/puppet/knight/thigh.png": {
+   "bytes": 101655,
+   "sha": "cb6aa091d4899584"
+  },
+  "assets/puppet/knight/torso.png": {
+   "bytes": 113469,
+   "sha": "520fd41dd26b57f5"
+  },
+  "assets/puppet/sultan/armF.png": {
+   "bytes": 168246,
+   "sha": "d91243ad25cef577"
+  },
+  "assets/puppet/sultan/armU.png": {
+   "bytes": 47537,
+   "sha": "3e4827ed32fcb7b1"
+  },
+  "assets/puppet/sultan/foot.png": {
+   "bytes": 1294,
+   "sha": "77c6d73cfe3f2f63"
+  },
+  "assets/puppet/sultan/hand.png": {
+   "bytes": 146288,
+   "sha": "75a6eaa2b1d8c161"
+  },
+  "assets/puppet/sultan/head.png": {
+   "bytes": 90044,
+   "sha": "398c6c45549d31c3"
+  },
+  "assets/puppet/sultan/neck.png": {
+   "bytes": 61695,
+   "sha": "1ecd342c0e195bfe"
+  },
+  "assets/puppet/sultan/parts.json": {
+   "bytes": 3202,
+   "sha": "9d6c59b633fad9f8"
+  },
+  "assets/puppet/sultan/shin.png": {
+   "bytes": 46545,
+   "sha": "2f0a131084e1d386"
+  },
+  "assets/puppet/sultan/tail.png": {
+   "bytes": 124156,
+   "sha": "1360ed7d91fd28f7"
+  },
+  "assets/puppet/sultan/thigh.png": {
+   "bytes": 192440,
+   "sha": "ffdd551773ad735e"
+  },
+  "assets/puppet/sultan/torso.png": {
+   "bytes": 119980,
+   "sha": "d28db403ae1c0058"
+  },
   "bundle.js": {
-   "bytes": 70650,
-   "sha": "d05feb5f575af85a"
-  },
-  "c1.js": {
-   "bytes": 52659,
-   "sha": "2e8024409d1ea907"
-  },
-  "c2.js": {
-   "bytes": 34172,
-   "sha": "c3ffe0396fb8f976"
-  },
-  "c3.js": {
-   "bytes": 30804,
-   "sha": "783a33b24ebf6beb"
-  },
-  "index.html": {
-   "bytes": 2518,
-   "sha": "962cf9cafcf64392"
-  },
-  "c1.html": {
-   "bytes": 5472,
-   "sha": "6fbf7c3ef8c9b6a2"
-  },
-  "c2.html": {
-   "bytes": 2867,
-   "sha": "8161b4235ab2cd4c"
-  },
-  "c3.html": {
-   "bytes": 2710,
-   "sha": "8e7d84e7955908ec"
-  },
-  "styles.css": {
-   "bytes": 10861,
-   "sha": "be4c5baef858cbac"
+   "bytes": 70816,
+   "sha": "80fe44a397244a18"
   },
   "c.css": {
    "bytes": 8431,
    "sha": "0392ef445d40af16"
   },
-  "tension.js": {
-   "bytes": 30108,
-   "sha": "15fe9a4fe54c9838"
+  "c1.html": {
+   "bytes": 5472,
+   "sha": "6fbf7c3ef8c9b6a2"
+  },
+  "c1.js": {
+   "bytes": 52825,
+   "sha": "7041fddf9f493649"
+  },
+  "c2.html": {
+   "bytes": 2867,
+   "sha": "8161b4235ab2cd4c"
+  },
+  "c2.js": {
+   "bytes": 34340,
+   "sha": "f8dd91a79aa8290c"
+  },
+  "c3.html": {
+   "bytes": 2710,
+   "sha": "8e7d84e7955908ec"
+  },
+  "c3.js": {
+   "bytes": 30970,
+   "sha": "2a4d52984e1aa867"
+  },
+  "favicon.ico": {
+   "bytes": 128,
+   "sha": "42506b94ee5f32a9"
+  },
+  "feed.js": {
+   "bytes": 34312,
+   "sha": "a0407748ee086d2a"
+  },
+  "fonts/archivo-black-400.woff2": {
+   "bytes": 19120,
+   "sha": "adb8fb4e21aa3b23"
+  },
+  "fonts/barlow-condensed-700.woff2": {
+   "bytes": 23824,
+   "sha": "0d7cb02ad509e064"
+  },
+  "fonts/bsd-700.woff2": {
+   "bytes": 14424,
+   "sha": "d2d55115d0d7047c"
+  },
+  "fonts/bsd-800.woff2": {
+   "bytes": 14556,
+   "sha": "088f423f09136bc9"
+  },
+  "fonts/iserif-400.woff2": {
+   "bytes": 21036,
+   "sha": "7796998dac1ab02b"
+  },
+  "fonts/iserif-400i.woff2": {
+   "bytes": 22184,
+   "sha": "1d6e1bd7bc12e292"
+  },
+  "fonts/mm-500.woff2": {
+   "bytes": 9304,
+   "sha": "ec720249f8767b6b"
+  },
+  "fonts/mm-700.woff2": {
+   "bytes": 9316,
+   "sha": "ca5e9443be02d10c"
+  },
+  "fonts/space-mono-400.woff2": {
+   "bytes": 19056,
+   "sha": "385c6e1380211fcb"
+  },
+  "fonts/space-mono-700.woff2": {
+   "bytes": 19540,
+   "sha": "84a16e8a09c6fa17"
+  },
+  "hit.css": {
+   "bytes": 3384,
+   "sha": "9ebcd08e073e2c7f"
+  },
+  "hit.html": {
+   "bytes": 964,
+   "sha": "6eda752f396c9835"
+  },
+  "hit.js": {
+   "bytes": 35160,
+   "sha": "ef392409084c4ab3"
+  },
+  "index.html": {
+   "bytes": 2518,
+   "sha": "962cf9cafcf64392"
+  },
+  "lab.js": {
+   "bytes": 39118,
+   "sha": "bfd2742ca6ec8b3e"
+  },
+  "puppet-lab.html": {
+   "bytes": 239,
+   "sha": "210697c5516d0e94"
+  },
+  "riglab.html": {
+   "bytes": 458,
+   "sha": "fd766a11cbe7f4eb"
+  },
+  "riglab.js": {
+   "bytes": 3976,
+   "sha": "fc6d4e47e14afaa8"
+  },
+  "shots/c1-desktop.webp": {
+   "bytes": 23158,
+   "sha": "66991413a5205538"
+  },
+  "shots/c1-phone.webp": {
+   "bytes": 25032,
+   "sha": "0c709caea31edb6f"
+  },
+  "shots/c2-desktop.webp": {
+   "bytes": 12442,
+   "sha": "e3a64ed69f1d987c"
+  },
+  "shots/c2-phone.webp": {
+   "bytes": 16254,
+   "sha": "b98bac417e8c7b47"
+  },
+  "shots/c3-desktop.webp": {
+   "bytes": 14218,
+   "sha": "d8529514b7fb7786"
+  },
+  "shots/c3-phone.webp": {
+   "bytes": 16834,
+   "sha": "89e1eccd781acfe0"
+  },
+  "styles.css": {
+   "bytes": 10861,
+   "sha": "be4c5baef858cbac"
   },
   "tension.css": {
    "bytes": 6159,
@@ -55,9 +332,61 @@
    "bytes": 2518,
    "sha": "962cf9cafcf64392"
   },
+  "tension.js": {
+   "bytes": 30313,
+   "sha": "841ff2519dbf4407"
+  },
+  "v1/bundle.js": {
+   "bytes": 70816,
+   "sha": "80fe44a397244a18"
+  },
+  "v1/fonts/archivo-black-400.woff2": {
+   "bytes": 19120,
+   "sha": "adb8fb4e21aa3b23"
+  },
+  "v1/fonts/barlow-condensed-700.woff2": {
+   "bytes": 23824,
+   "sha": "0d7cb02ad509e064"
+  },
+  "v1/fonts/bsd-700.woff2": {
+   "bytes": 14424,
+   "sha": "d2d55115d0d7047c"
+  },
+  "v1/fonts/bsd-800.woff2": {
+   "bytes": 14556,
+   "sha": "088f423f09136bc9"
+  },
+  "v1/fonts/iserif-400.woff2": {
+   "bytes": 21036,
+   "sha": "7796998dac1ab02b"
+  },
+  "v1/fonts/iserif-400i.woff2": {
+   "bytes": 22184,
+   "sha": "1d6e1bd7bc12e292"
+  },
+  "v1/fonts/mm-500.woff2": {
+   "bytes": 9304,
+   "sha": "ec720249f8767b6b"
+  },
+  "v1/fonts/mm-700.woff2": {
+   "bytes": 9316,
+   "sha": "ca5e9443be02d10c"
+  },
+  "v1/fonts/space-mono-400.woff2": {
+   "bytes": 19056,
+   "sha": "385c6e1380211fcb"
+  },
+  "v1/fonts/space-mono-700.woff2": {
+   "bytes": 19540,
+   "sha": "84a16e8a09c6fa17"
+  },
   "v1/index.html": {
    "bytes": 4332,
    "sha": "27fd7995b77ebbcf"
+  },
+  "v1/styles.css": {
+   "bytes": 10861,
+   "sha": "be4c5baef858cbac"
   }
  }
 }
