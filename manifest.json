@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3418253,
- "fileCount": 108,
+ "totalBytes": 3452368,
+ "fileCount": 111,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -289,24 +289,24 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1374,
-   "sha": "dcc7ac9b546f92f4"
+   "bytes": 1362,
+   "sha": "0c1ab35ce56e1b0b"
   },
   "lab.js": {
    "bytes": 39118,
    "sha": "bfd2742ca6ec8b3e"
   },
   "loom.css": {
-   "bytes": 3789,
-   "sha": "37fccb0d392aad94"
+   "bytes": 3812,
+   "sha": "78ff45f22268a12d"
   },
   "loom.html": {
-   "bytes": 1374,
-   "sha": "dcc7ac9b546f92f4"
+   "bytes": 1422,
+   "sha": "de3fea50155c49bf"
   },
   "loom.js": {
-   "bytes": 29270,
-   "sha": "cccc4a005c2816b0"
+   "bytes": 30912,
+   "sha": "521629f129d5cbd2"
   },
   "puppet-lab.html": {
    "bytes": 239,
@@ -383,6 +383,18 @@
   "theatre.js": {
    "bytes": 31485,
    "sha": "4279854692475ce0"
+  },
+  "trestle.css": {
+   "bytes": 3330,
+   "sha": "9b067982dad222a5"
+  },
+  "trestle.html": {
+   "bytes": 1362,
+   "sha": "0c1ab35ce56e1b0b"
+  },
+  "trestle.js": {
+   "bytes": 27722,
+   "sha": "ef008e850bc556a6"
   },
   "v1/bundle.js": {
    "bytes": 70816,

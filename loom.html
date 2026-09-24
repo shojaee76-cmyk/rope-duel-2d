@@ -3,25 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>THE WEFT - a rope loom puzzle</title>
-<meta name="description" content="Thread a continuous line through a stage loom. Pass every gate, seat the brass shuttle, and release the curtain.">
+<title>THE WEFT - a physical weaving loom puzzle</title>
+<meta name="description" content="Thread a continuous line through a physical loom. Pass every gate, seat the brass shuttle, and release the fabric curtain.">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="stylesheet" href="loom.css">
 </head>
 <body>
-<canvas id="loom" aria-label="A rope loom with eyelets, a continuous thread, a brass shuttle, and two small marionette charms"></canvas>
+<canvas id="loom" aria-label="A physical loom with a continuous thread, fixed eyelets, a brass shuttle, a woven swatch, and a small charm reveal"></canvas>
 <header class="masthead">
-  <div><p class="kicker">KINETIC STUDY / 04</p><h1>THE WEFT</h1></div>
+  <div><p class="kicker">PHYSICAL STUDY / 01</p><h1>THE WEFT</h1></div>
   <div class="tape"><span id="feed-mode">WAITING FOR AIR</span><b id="price">AIR SENSOR</b></div>
 </header>
 <main class="ui">
-  <p class="instruction" id="instruction">DRAG THE SHUTTLE THROUGH THE EYELETS</p>
+  <p class="instruction" id="instruction">DRAG THE BRASS SHUTTLE THROUGH THE LOOM</p>
   <div class="loom-status" id="loom-status"><span id="gate-status">GATE 0 / 4</span><b id="weave-state">UNTHREADED</b></div>
 </main>
 <footer class="footer">
   <div><span>THREAD</span><b id="thread-state">READY</b></div>
   <div><span>AIR</span><b id="wind">STILL</b></div>
-  <div><span>STAGE</span><b id="stage-state">DARK</b></div>
+  <div><span>CLOTH</span><b id="stage-state">RESTING</b></div>
   <p>R / RESET THE LOOM</p>
 </footer>
 <p class="boot" id="boot">THREADING THE LOOM</p>
