@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3383902,
- "fileCount": 105,
+ "totalBytes": 3418253,
+ "fileCount": 108,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -289,12 +289,24 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1451,
-   "sha": "d578b7afcd4da467"
+   "bytes": 1374,
+   "sha": "dcc7ac9b546f92f4"
   },
   "lab.js": {
    "bytes": 39118,
    "sha": "bfd2742ca6ec8b3e"
+  },
+  "loom.css": {
+   "bytes": 3789,
+   "sha": "37fccb0d392aad94"
+  },
+  "loom.html": {
+   "bytes": 1374,
+   "sha": "dcc7ac9b546f92f4"
+  },
+  "loom.js": {
+   "bytes": 29270,
+   "sha": "cccc4a005c2816b0"
   },
   "puppet-lab.html": {
    "bytes": 239,
@@ -309,8 +321,8 @@
    "sha": "d578b7afcd4da467"
   },
   "rig.js": {
-   "bytes": 33980,
-   "sha": "33be38b526c0c2b5"
+   "bytes": 33975,
+   "sha": "387002ed66938fff"
   },
   "riglab.html": {
    "bytes": 458,
