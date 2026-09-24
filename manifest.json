@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 3383689,
+ "totalBytes": 3383902,
  "fileCount": 105,
  "poseBytes": 187745,
  "files": {
@@ -301,16 +301,16 @@
    "sha": "210697c5516d0e94"
   },
   "rig.css": {
-   "bytes": 4317,
-   "sha": "7f4c286c9be61624"
+   "bytes": 4492,
+   "sha": "1e2afe4b06802a45"
   },
   "rig.html": {
    "bytes": 1451,
    "sha": "d578b7afcd4da467"
   },
   "rig.js": {
-   "bytes": 33942,
-   "sha": "c290441d9d1a3157"
+   "bytes": 33980,
+   "sha": "33be38b526c0c2b5"
   },
   "riglab.html": {
    "bytes": 458,
