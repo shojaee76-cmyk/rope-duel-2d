@@ -1,6 +1,6 @@
 {
- "build": "2026-09-24T13:23:01.760Z",
- "totalBytes": 263328,
+ "build": "2026-09-24T13:51:53.604Z",
+ "totalBytes": 264111,
  "poseBytes": 187745,
  "files": {
   "bundle.js": {
@@ -20,8 +20,8 @@
    "sha": "8e7f2252d9fe9248"
   },
   "index.html": {
-   "bytes": 2567,
-   "sha": "361b2f06e5b7c4d0"
+   "bytes": 2518,
+   "sha": "962cf9cafcf64392"
   },
   "c1.html": {
    "bytes": 5472,
@@ -44,16 +44,16 @@
    "sha": "0392ef445d40af16"
   },
   "tension.js": {
-   "bytes": 29759,
-   "sha": "dd7cc4d0e04abbf0"
+   "bytes": 30038,
+   "sha": "9a72aa52c30a2d1d"
   },
   "tension.css": {
-   "bytes": 5557,
-   "sha": "c28d8706f3ed4363"
+   "bytes": 6159,
+   "sha": "c1e3951ff45920c8"
   },
   "tension.html": {
-   "bytes": 2567,
-   "sha": "361b2f06e5b7c4d0"
+   "bytes": 2518,
+   "sha": "962cf9cafcf64392"
   },
   "v1/index.html": {
    "bytes": 4332,
