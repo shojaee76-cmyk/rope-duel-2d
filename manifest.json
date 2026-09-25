@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3512207,
- "fileCount": 117,
+ "totalBytes": 3531899,
+ "fileCount": 120,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -240,6 +240,18 @@
    "bytes": 36443,
    "sha": "6c6f8833952ea509"
   },
+  "cinch.css": {
+   "bytes": 2963,
+   "sha": "c1b3713edf8a6908"
+  },
+  "cinch.html": {
+   "bytes": 1496,
+   "sha": "ed833157cbe22a90"
+  },
+  "cinch.js": {
+   "bytes": 15851,
+   "sha": "0de884b9683f4942"
+  },
   "favicon.ico": {
    "bytes": 128,
    "sha": "42506b94ee5f32a9"
@@ -301,20 +313,20 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 2097,
-   "sha": "8113d4e774b5100f"
+   "bytes": 1496,
+   "sha": "ed833157cbe22a90"
   },
   "knotbench.css": {
-   "bytes": 5017,
-   "sha": "2d69cf9e2f0125a6"
+   "bytes": 4599,
+   "sha": "6c95d742c3b3040a"
   },
   "knotbench.html": {
-   "bytes": 2097,
-   "sha": "8113d4e774b5100f"
+   "bytes": 1728,
+   "sha": "abdeea594bdf7876"
   },
   "knotbench.js": {
-   "bytes": 13500,
-   "sha": "2818e39f5382fad3"
+   "bytes": 14270,
+   "sha": "94a84ae827a31b35"
   },
   "lab.js": {
    "bytes": 39118,

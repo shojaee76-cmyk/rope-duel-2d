@@ -4,43 +4,32 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ROPE KNOT BENCH - form a loop, test the hold</title>
-<meta name="description" content="A tactile rope knot bench: wrap the working end around one post, form a loop, and pull to test the hold.">
+<meta name="description" content="A tactile rope knot bench: drag the working end around one post, form a visible loop, and pull to test the hold.">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="stylesheet" href="knotbench.css">
 </head>
 <body>
 <main class="bench-app">
   <section class="bench-stage" aria-label="Rope knot test bench">
-    <canvas id="knotbench" aria-label="A single post on a workbench with a rope. Drag the working end around the post to form a visible loop, then pull to test it."></canvas>
-    <div class="stage-note" aria-hidden="true">DRAG THE ROPE, THEN TEST THE LOOP</div>
+    <canvas id="knotbench" aria-label="A single post on a workbench with a rope. Drag the cut rope end around the post to form a visible loop, then pull right to test it."></canvas>
   </section>
   <aside class="bench-dock" aria-label="Knot bench controls">
     <header class="bench-head">
-      <div>
-        <p class="eyebrow">KNOT STUDY / 01</p>
-        <h1>ROPE<br><span>KNOT BENCH</span></h1>
+      <div class="brand-mark">
+        <p class="eyebrow">ROPE STUDY / 01</p>
+        <h1>ROPE <span>KNOT BENCH</span></h1>
       </div>
-      <div class="state-plate" aria-live="polite">
-        <span>STATE</span>
+      <div class="state-plate visually-hidden" aria-live="polite">
         <strong id="state">LOOSE</strong>
       </div>
     </header>
-
     <section class="instruction-block" aria-label="Bench instruction">
-      <p class="instruction" id="instruction">WRAP THE ROPE AROUND THE POST</p>
-      <p class="subinstruction" id="instruction-detail">Make one loop. Pull right when it turns green.</p>
-      <p class="result-line" id="result" aria-live="polite">ROPE CLEAR</p>
+      <p class="instruction" id="instruction">DRAG THE CUT END</p>
+      <p class="subinstruction" id="instruction-detail">Wrap one full turn around the post. Pull right when it turns green.</p>
+      <p class="result-line" id="result" aria-live="polite">HOLD / SLIP AFTER PULL</p>
     </section>
-
-    <section class="readout" aria-label="Knot bench readings">
-      <div><span>LOOP WRAP</span><b id="wrap">0%</b></div>
-      <div><span>HOLD QUALITY</span><b id="quality">0%</b></div>
-    </section>
-
     <footer class="bench-actions">
-      <button class="secondary" id="tie" type="button">FORM LOOP</button>
-      <button class="reset" id="reset" type="button">RESET BENCH</button>
-      <p class="key-hint" aria-label="Keyboard shortcut">R / RESET</p>
+      <button class="reset" id="reset" type="button" aria-label="Reset the knot bench">RESET</button>
     </footer>
   </aside>
 </main>
