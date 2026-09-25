@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3488549,
- "fileCount": 114,
+ "totalBytes": 3512207,
+ "fileCount": 117,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -217,16 +217,16 @@
    "sha": "2a4d52984e1aa867"
   },
   "capstan.css": {
-   "bytes": 4050,
-   "sha": "34df557d55872d92"
+   "bytes": 4169,
+   "sha": "3ee7f473b09c1b27"
   },
   "capstan.html": {
-   "bytes": 1735,
-   "sha": "1b1ac9432942a055"
+   "bytes": 1708,
+   "sha": "fa12356566de7bc7"
   },
   "capstan.js": {
-   "bytes": 27950,
-   "sha": "d3c8cee41cf9f4fa"
+   "bytes": 30540,
+   "sha": "8397222bfeaab436"
   },
   "catduel.css": {
    "bytes": 6966,
@@ -301,8 +301,20 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1735,
-   "sha": "1b1ac9432942a055"
+   "bytes": 2097,
+   "sha": "8113d4e774b5100f"
+  },
+  "knotbench.css": {
+   "bytes": 5017,
+   "sha": "2d69cf9e2f0125a6"
+  },
+  "knotbench.html": {
+   "bytes": 2097,
+   "sha": "8113d4e774b5100f"
+  },
+  "knotbench.js": {
+   "bytes": 13500,
+   "sha": "2818e39f5382fad3"
   },
   "lab.js": {
    "bytes": 39118,

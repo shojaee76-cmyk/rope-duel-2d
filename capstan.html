@@ -11,7 +11,7 @@
 <body>
 <main class="app">
   <section class="machine" aria-label="Rope capstan machine">
-    <canvas id="capstan" aria-label="A large rope capstan wheel with a visible rope wrap, one hanging brass load, a catch platform, and a brake control"></canvas>
+    <canvas id="capstan" aria-label="A large rope capstan with a grooved drum, visible rope wrap, one hanging brass load, a local catch cradle, and a physical pawl"></canvas>
     <p class="hoist-caption" aria-hidden="true">VERTICAL HOIST / ONE LOAD</p>
     <p class="boot" id="boot">SETTING THE LOAD</p>
   </section>
@@ -21,7 +21,7 @@
       <div class="air"><span id="air-mode">WAITING FOR AIR</span><b id="air">STILL</b></div>
     </header>
     <div class="brief">
-      <p class="instruction" id="instruction" aria-live="polite">DRAG RIM TO WIND · SET THE TENSION · RELEASE THE PAWL</p>
+      <p class="instruction" id="instruction" aria-live="polite">DRAG RIM TO WIND · SET TENSION · RELEASE PAWL</p>
       <div class="readout"><span>LOAD TENSION</span><b id="tension">0.35</b></div>
       <button class="pawl-release" id="release" type="button">RELEASE PAWL</button>
     </div>
@@ -29,7 +29,6 @@
       <div><span>PHASE</span><b id="phase">EDIT</b></div>
       <div><span>STATUS</span><b id="status">WIND THE CAPSTAN</b></div>
       <button class="reset" id="reset" type="button">RESET CAPSTAN</button>
-      <p>R / RESET CAPSTAN</p>
     </footer>
   </aside>
 </main>
