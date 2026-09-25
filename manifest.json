@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3454441,
- "fileCount": 111,
+ "totalBytes": 3486613,
+ "fileCount": 114,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -216,6 +216,18 @@
    "bytes": 30970,
    "sha": "2a4d52984e1aa867"
   },
+  "capstan.css": {
+   "bytes": 3831,
+   "sha": "edc61add8d7c3562"
+  },
+  "capstan.html": {
+   "bytes": 1644,
+   "sha": "9014df1c81327368"
+  },
+  "capstan.js": {
+   "bytes": 26415,
+   "sha": "bd7e57f27e4bee97"
+  },
   "catduel.css": {
    "bytes": 6966,
    "sha": "c0f15de6b6e17a01"
@@ -289,8 +301,8 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1362,
-   "sha": "0c1ab35ce56e1b0b"
+   "bytes": 1644,
+   "sha": "9014df1c81327368"
   },
   "lab.js": {
    "bytes": 39118,
