@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 3452368,
+ "totalBytes": 3454441,
  "fileCount": 111,
  "poseBytes": 187745,
  "files": {
@@ -385,16 +385,16 @@
    "sha": "4279854692475ce0"
   },
   "trestle.css": {
-   "bytes": 3330,
-   "sha": "9b067982dad222a5"
+   "bytes": 3581,
+   "sha": "994b9ac86fb53758"
   },
   "trestle.html": {
    "bytes": 1362,
    "sha": "0c1ab35ce56e1b0b"
   },
   "trestle.js": {
-   "bytes": 27722,
-   "sha": "ef008e850bc556a6"
+   "bytes": 29544,
+   "sha": "9e93c8389dff9553"
   },
   "v1/bundle.js": {
    "bytes": 70816,
