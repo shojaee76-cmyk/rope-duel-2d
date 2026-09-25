@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 3486613,
+ "totalBytes": 3488549,
  "fileCount": 114,
  "poseBytes": 187745,
  "files": {
@@ -217,16 +217,16 @@
    "sha": "2a4d52984e1aa867"
   },
   "capstan.css": {
-   "bytes": 3831,
-   "sha": "edc61add8d7c3562"
+   "bytes": 4050,
+   "sha": "34df557d55872d92"
   },
   "capstan.html": {
-   "bytes": 1644,
-   "sha": "9014df1c81327368"
+   "bytes": 1735,
+   "sha": "1b1ac9432942a055"
   },
   "capstan.js": {
-   "bytes": 26415,
-   "sha": "bd7e57f27e4bee97"
+   "bytes": 27950,
+   "sha": "d3c8cee41cf9f4fa"
   },
   "catduel.css": {
    "bytes": 6966,
@@ -301,8 +301,8 @@
    "sha": "a31645dee41403ad"
   },
   "index.html": {
-   "bytes": 1644,
-   "sha": "9014df1c81327368"
+   "bytes": 1735,
+   "sha": "1b1ac9432942a055"
   },
   "lab.js": {
    "bytes": 39118,
