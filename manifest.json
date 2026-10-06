@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 3590608,
+ "totalBytes": 4144709,
  "fileCount": 123,
  "poseBytes": 187745,
  "files": {
@@ -252,17 +252,17 @@
    "bytes": 15851,
    "sha": "0de884b9683f4942"
   },
-  "duel.css": {
-   "bytes": 5764,
-   "sha": "52f79a30acbf05ac"
+  "duel3d.css": {
+   "bytes": 6746,
+   "sha": "49508c15f741a34c"
   },
-  "duel.html": {
-   "bytes": 1909,
-   "sha": "4c3d644b60b56297"
+  "duel3d.html": {
+   "bytes": 1935,
+   "sha": "e798bef3057922fd"
   },
-  "duel.js": {
-   "bytes": 50238,
-   "sha": "dd8df8bb5a8c426f"
+  "duel3d.js": {
+   "bytes": 603331,
+   "sha": "81a462ea1c1f3419"
   },
   "favicon.ico": {
    "bytes": 128,
