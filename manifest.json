@@ -1,6 +1,6 @@
 {
  "build": "deterministic",
- "totalBytes": 4144711,
+ "totalBytes": 4144730,
  "fileCount": 123,
  "poseBytes": 187745,
  "files": {
@@ -261,8 +261,8 @@
    "sha": "e798bef3057922fd"
   },
   "duel3d.js": {
-   "bytes": 603333,
-   "sha": "c4ecb2f7bc822b9b"
+   "bytes": 603352,
+   "sha": "d363249ae22e6652"
   },
   "favicon.ico": {
    "bytes": 128,
