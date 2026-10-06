@@ -1,5 +1,13 @@
 /* arena.css - the playable rope-duel ring chrome */
 
+/* fonts fix: the route was styled for Big Shoulders Display but never loaded
+ * it (the @font-face block only lived in c.css), so every HUD line fell back
+ * to Arial Narrow. Self-hosted here now, same files as the rest of the site. */
+@font-face{font-family:'Big Shoulders Display';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/bsd-700.woff2) format('woff2')}
+@font-face{font-family:'Big Shoulders Display';font-style:normal;font-weight:800;font-display:swap;src:url(fonts/bsd-800.woff2) format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/mm-500.woff2) format('woff2')}
+@font-face{font-family:'Martian Mono';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/mm-700.woff2) format('woff2')}
+
 html,body{margin:0;padding:0;background:#111416;color:#dfe5de;height:100%;overflow:hidden}
 body{font-family:"Big Shoulders Display","Arial Narrow",sans-serif;-webkit-user-select:none;user-select:none}
 

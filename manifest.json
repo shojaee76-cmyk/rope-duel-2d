@@ -1,7 +1,7 @@
 {
  "build": "deterministic",
- "totalBytes": 3531899,
- "fileCount": 120,
+ "totalBytes": 3590573,
+ "fileCount": 123,
  "poseBytes": 187745,
  "files": {
   ".nojekyll": {
@@ -17,8 +17,8 @@
    "sha": "6442fdca74218e34"
   },
   "arena.css": {
-   "bytes": 1736,
-   "sha": "b9a7ffec5398c2fe"
+   "bytes": 2534,
+   "sha": "e3d84de0f55228ec"
   },
   "arena.html": {
    "bytes": 995,
@@ -251,6 +251,18 @@
   "cinch.js": {
    "bytes": 15851,
    "sha": "0de884b9683f4942"
+  },
+  "duel.css": {
+   "bytes": 5726,
+   "sha": "edfb35c53e5f562e"
+  },
+  "duel.html": {
+   "bytes": 1909,
+   "sha": "4c3d644b60b56297"
+  },
+  "duel.js": {
+   "bytes": 50241,
+   "sha": "7d71be4cce1a2ab4"
   },
   "favicon.ico": {
    "bytes": 128,

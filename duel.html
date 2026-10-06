@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c0907">
+<title>THE RING II - rope duel, pick your cat</title>
+<meta name="description" content="The rope duel, played. BTC/USDT writes the fight: pick your cat, tap to attack, hold to guard, tap at the last beat to parry.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="stylesheet" href="duel.css">
+</head>
+<body class="menu">
+<canvas id="stage"></canvas>
+
+<header class="hud">
+  <div class="side gl">
+    <b>DON GATO<i class="you" id="gYou"></i></b>
+    <span class="bar"><u id="gBar"></u></span>
+  </div>
+  <div class="mid">
+    <p id="px">--</p>
+    <p id="fl">AWAITING TAPE</p>
+    <p id="prov"></p>
+  </div>
+  <div class="side sr">
+    <b><i class="you" id="sYou"></i>SULTAN BIGOTES</b>
+    <span class="bar rb"><u id="sBar"></u></span>
+  </div>
+</header>
+
+<footer class="hints">
+  <div id="ha"><b>LEFT HALF</b>TAP: LUNGE / SLASH / CUT</div>
+  <div id="hg"><b>RIGHT HALF</b>HOLD: GUARD<br>TAP AT LAST BEAT: PARRY</div>
+</footer>
+
+<div class="ov" id="menu">
+  <h1>ROPE DUEL</h1>
+  <p class="tag">BTC/USDT WRITES THE FIGHT. PICK YOUR CAT.</p>
+  <div class="pick">
+    <button id="b0" class="gato">DON GATO<small>SELL SIDE / QUICK</small></button>
+    <button id="b1" class="sultan">SULTAN BIGOTES<small>BUY SIDE / HEAVY</small></button>
+  </div>
+  <div class="how">
+    <div><b>LEFT HALF</b>tap to attack</div>
+    <div><b>RIGHT HALF</b>hold to guard<br>tap late to parry</div>
+  </div>
+</div>
+
+<div class="ov" id="end" hidden>
+  <h1 id="et">YOU WIN</h1>
+  <p id="es"></p>
+  <div class="pick">
+    <button id="again">FIGHT AGAIN</button>
+    <button id="change" class="ghost">CHANGE CAT</button>
+  </div>
+</div>
+
+<p id="boot">SHARPENING</p>
+
+<script type="module" src="duel.js"></script>
+</body>
+</html>
